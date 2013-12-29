@@ -1,0 +1,17 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "smartfile": {
+        "version": "0.1.2"
+      }
+    },
+    "packages": {
+      "smartfile": {
+        "git": "https://github.com/sylvaingi/meteor-smartfile.git",
+        "tag": "v0.1.2",
+        "commit": "4eb9fb8b72bdbf26a27c5016cb22a63dc1ef90b3"
+      }
+    }
+  }
+}
