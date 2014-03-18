@@ -11,7 +11,11 @@ Template.form.events({
 
         sf.upload(file, function(err, result){
             form.reset();
-            console.log("Upload public URL:" + sf.resolvePublic(result));
+            if (err) {
+                console.log(err);
+            } else {
+                console.log("Upload public URL:" + sf.resolvePublic(result));
+            }
         });
     }
 });
